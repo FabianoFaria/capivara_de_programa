@@ -1,0 +1,7 @@
+# Segredos e cópias de segurança
+.env
+*.bak*
+
+# Conteúdo do WordPress (fica no backup, não no Git), exceto os mu-plugins
+wp-content/*
+!wp-content/mu-plugins/
