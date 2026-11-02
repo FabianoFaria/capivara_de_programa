@@ -1,0 +1,847 @@
+# Copyright (C) 2026 Capivara de Programa
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Capivara de Programa 1.1.0\n"
+"Report-Msgid-Bugs-To: https://capivaradeprograma.com.br\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Capivara de Programa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-01T22:35:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: capivara\n"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css
+#: functions.php:78
+msgid "Capivara de Programa"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://capivaradeprograma.com.br"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Tema de blocos escuro para o Capivara de Programa — notícias de tecnologia, tutoriais e vagas. Paleta do logo (preto, turquesa, mostarda e rosa), fontes locais (Montserrat, Inter e JetBrains Mono) e espaços de anúncio discretos."
+msgstr ""
+
+#: functions.php:61
+msgid "Copiar"
+msgstr ""
+
+#: functions.php:62
+msgid "Copiado!"
+msgstr ""
+
+#: functions.php:63
+msgid "Copiar código"
+msgstr ""
+
+#: inc/anuncios.php:23
+msgid "Horizontal (entre seções, 728 × 90 / 320 × 100)"
+msgstr ""
+
+#: inc/anuncios.php:24
+msgid "Lateral (barra do post, 300 × 250)"
+msgstr ""
+
+#: inc/anuncios.php:25
+#: blocks/anuncio/index.js:12
+msgid "No meio do artigo"
+msgstr ""
+
+#: inc/anuncios.php:26
+msgid "Patrocinado na lista de vagas"
+msgstr ""
+
+#: inc/anuncios.php:51
+#: inc/anuncios.php:52
+#: inc/anuncios.php:109
+msgid "Anúncios"
+msgstr ""
+
+#: inc/anuncios.php:110
+msgid "Cole aqui o código de cada espaço (por exemplo, um bloco de anúncio do Google AdSense). Espaço vazio não aparece para visitantes."
+msgstr ""
+
+#: inc/anuncios.php:112
+msgid "Seu usuário não pode salvar scripts. Peça a um administrador para colar o código dos anúncios."
+msgstr ""
+
+#: inc/anuncios.php:126
+msgid "Anúncio do artigo aparece depois do parágrafo nº"
+msgstr ""
+
+#: inc/anuncios.php:157
+#: inc/anuncios.php:172
+#: inc/anuncios.php:173
+#: blocks/anuncio/index.js:54
+msgid "Publicidade"
+msgstr ""
+
+#. translators: %s: nome do espaço
+#: inc/anuncios.php:161
+#, php-format
+msgid "Espaço \"%s\" vazio. Configure em Aparência › Anúncios (só administradores veem este aviso)."
+msgstr ""
+
+#: inc/anuncios.php:173
+msgid "Patrocinado"
+msgstr ""
+
+#: inc/ativacao.php:18
+#: patterns/header.php:29
+msgid "Notícias"
+msgstr ""
+
+#: inc/ativacao.php:19
+#: patterns/header.php:31
+msgid "Tutoriais"
+msgstr ""
+
+#: inc/ativacao.php:20
+msgid "Diário de dev"
+msgstr ""
+
+#: inc/ativacao.php:38
+#: patterns/header.php:33
+msgid "Vagas"
+msgstr ""
+
+#: inc/helpers.php:205
+msgid "Anteriores"
+msgstr ""
+
+#: inc/helpers.php:205
+msgid "Próximos"
+msgstr ""
+
+#: inc/helpers.php:210
+msgid "Nada por aqui ainda. Tente outra busca ou volte em breve."
+msgstr ""
+
+#: inc/idiomas.php:63
+msgid "Idioma"
+msgstr ""
+
+#: inc/tempo-de-leitura.php:37
+msgid "Tempo de leitura"
+msgstr ""
+
+#. translators: %d: minutos
+#: inc/tempo-de-leitura.php:46
+#, php-format
+msgid "%d min de leitura"
+msgid_plural "%d min de leitura"
+msgstr[0] ""
+msgstr[1] ""
+
+#: patterns/barra-lateral-post.php
+msgctxt "Pattern title"
+msgid "Barra lateral do post"
+msgstr ""
+
+#: patterns/barra-lateral-post.php
+msgctxt "Pattern description"
+msgid "Anúncio lateral, chamada de vagas e busca."
+msgstr ""
+
+#: patterns/barra-lateral-post.php:17
+msgid "Procurando vaga?"
+msgstr ""
+
+#: patterns/barra-lateral-post.php:21
+msgid "Veja vagas de tecnologia selecionadas, com stack e salário informados."
+msgstr ""
+
+#: patterns/barra-lateral-post.php:26
+#: patterns/vagas-faixa.php:30
+msgid "Ver vagas →"
+msgstr ""
+
+#: patterns/barra-lateral-post.php:31
+#: patterns/conteudo-404.php:25
+msgid "Buscar no site"
+msgstr ""
+
+#: patterns/barra-lateral-post.php:31
+msgid "Buscar tutoriais…"
+msgstr ""
+
+#: patterns/barra-lateral-post.php:31
+#: patterns/conteudo-404.php:25
+#: patterns/header.php:41
+#: patterns/titulo-busca.php:15
+msgid "Buscar"
+msgstr ""
+
+#: patterns/categorias.php
+msgctxt "Pattern title"
+msgid "Faixa de categorias"
+msgstr ""
+
+#: patterns/categorias.php
+msgctxt "Pattern description"
+msgid "Lista de categorias em formato de \"chips\"."
+msgstr ""
+
+#: patterns/conteudo-404.php
+msgctxt "Pattern title"
+msgid "Conteúdo da página 404"
+msgstr ""
+
+#: patterns/conteudo-404.php
+msgctxt "Pattern description"
+msgid "Mensagem de \"página não encontrada\" com busca."
+msgstr ""
+
+#: patterns/conteudo-404.php:14
+msgid "$ cd /pagina"
+msgstr ""
+
+#: patterns/conteudo-404.php:14
+msgid "bash: cd: /pagina: No such file or directory"
+msgstr ""
+
+#: patterns/conteudo-404.php:18
+msgid "Erro 404: a capivara não achou essa página."
+msgstr ""
+
+#: patterns/conteudo-404.php:22
+msgid "O link pode ter mudado ou o post saiu do ar. Tente uma busca:"
+msgstr ""
+
+#: patterns/conteudo-404.php:25
+#: patterns/header.php:41
+#: patterns/titulo-busca.php:15
+msgid "Buscar no site…"
+msgstr ""
+
+#: patterns/conteudo-404.php:29
+msgid "Voltar para o início"
+msgstr ""
+
+#: patterns/dica.php
+msgctxt "Pattern title"
+msgid "Dica da capivara"
+msgstr ""
+
+#: patterns/dica.php
+msgctxt "Pattern description"
+msgid "Caixa de destaque para dicas dentro dos tutoriais."
+msgstr ""
+
+#: patterns/dica.php:14
+msgid "Dica da capivara"
+msgstr ""
+
+#. translators: %s: nome de arquivo, como .env
+#: patterns/dica.php:20
+#, php-format
+msgid "Guarde senhas num arquivo %s e nunca o envie para o Git."
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Rodapé"
+msgstr ""
+
+#: patterns/footer.php:25
+msgid "Programação & Cia."
+msgstr ""
+
+#: patterns/footer.php:30
+msgid "Sobre"
+msgstr ""
+
+#: patterns/footer.php:32
+msgid "Anuncie"
+msgstr ""
+
+#: patterns/footer.php:34
+msgid "Política de privacidade (LGPD)"
+msgstr ""
+
+#: patterns/footer.php:36
+msgid "Contato"
+msgstr ""
+
+#: patterns/grade-posts.php
+msgctxt "Pattern title"
+msgid "Grade de posts (arquivo)"
+msgstr ""
+
+#: patterns/grade-posts.php
+msgctxt "Pattern description"
+msgid "Query Loop que segue a página atual (blog, categoria, tag, busca)."
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Cabeçalho"
+msgstr ""
+
+#: patterns/header.php:16
+msgid "Capivara de Programa — início"
+msgstr ""
+
+#: patterns/header.php:27
+msgid "Início"
+msgstr ""
+
+#: patterns/header.php:35
+msgid "Lives"
+msgstr ""
+
+#: patterns/header.php:45
+msgid "Próxima live"
+msgstr ""
+
+#: patterns/hero-live.php
+msgctxt "Pattern title"
+msgid "Abertura com janela da live"
+msgstr ""
+
+#: patterns/hero-live.php
+msgctxt "Pattern description"
+msgid "Título, chamada e janela \"navegador\" com a próxima live."
+msgstr ""
+
+#: patterns/hero-live.php:19
+msgid "Programação & Cia., do terminal à próxima vaga."
+msgstr ""
+
+#: patterns/hero-live.php:23
+msgid "Notícias de tecnologia comentadas em português, tutoriais práticos de Linux, Docker, WordPress, n8n, Laravel e Node, e uma busca de vagas feita para devs."
+msgstr ""
+
+#: patterns/hero-live.php:28
+msgid "Ler os tutoriais →"
+msgstr ""
+
+#: patterns/hero-live.php:32
+msgid "Buscar vagas"
+msgstr ""
+
+#: patterns/hero-live.php:46
+msgid "Mascote do Capivara de Programa"
+msgstr ""
+
+#: patterns/hero-live.php:52
+msgid "Construindo o Capivara de Programa ao vivo"
+msgstr ""
+
+#: patterns/hero-live.php:56
+msgid "[Dia e horário] · YouTube e Twitch"
+msgstr ""
+
+#: patterns/hero-live.php:62
+msgid "▶ Assistir"
+msgstr ""
+
+#: patterns/leia-tambem.php
+msgctxt "Pattern title"
+msgid "Leia também"
+msgstr ""
+
+#: patterns/leia-tambem.php:13
+msgid "Leia também"
+msgstr ""
+
+#: patterns/redes-sociais.php
+msgctxt "Pattern title"
+msgid "Redes sociais e RSS"
+msgstr ""
+
+#: patterns/redes-sociais.php
+msgctxt "Pattern description"
+msgid "\"Acompanhe a evolução de um dev\" com links das redes e do feed."
+msgstr ""
+
+#: patterns/redes-sociais.php:15
+msgid "Acompanhe a evolução de um dev"
+msgstr ""
+
+#: patterns/redes-sociais.php:33
+msgid "RSS"
+msgstr ""
+
+#: patterns/redes-sociais.php:40
+msgid "Receba os tutoriais novos"
+msgstr ""
+
+#: patterns/redes-sociais.php:44
+msgid "Siga o Squad no daily.dev ou assine o feed RSS no seu leitor favorito."
+msgstr ""
+
+#: patterns/redes-sociais.php:49
+msgid "Squad no daily.dev"
+msgstr ""
+
+#: patterns/redes-sociais.php:53
+msgid "Assinar o RSS"
+msgstr ""
+
+#: patterns/stacks.php
+msgctxt "Pattern title"
+msgid "Tutoriais por stack"
+msgstr ""
+
+#: patterns/stacks.php
+msgctxt "Pattern description"
+msgid "Grade de atalhos para as tags de cada tecnologia."
+msgstr ""
+
+#: patterns/stacks.php:12
+msgid "Servidor, terminal e shell"
+msgstr ""
+
+#: patterns/stacks.php:13
+msgid "Containers e Compose"
+msgstr ""
+
+#: patterns/stacks.php:14
+msgid "Temas, plugins e deploy"
+msgstr ""
+
+#: patterns/stacks.php:15
+msgid "Automações e integrações"
+msgstr ""
+
+#: patterns/stacks.php:16
+msgid "PHP moderno na prática"
+msgstr ""
+
+#: patterns/stacks.php:17
+msgid "APIs e JavaScript"
+msgstr ""
+
+#: patterns/stacks.php:22
+msgid "Tutoriais por stack"
+msgstr ""
+
+#: patterns/titulo-arquivo.php
+msgctxt "Pattern title"
+msgid "Título do arquivo"
+msgstr ""
+
+#: patterns/titulo-arquivo.php
+msgctxt "Pattern description"
+msgid "Abertura das páginas de categoria e tag."
+msgstr ""
+
+#: patterns/titulo-arquivo.php:14
+msgid "~ / arquivo"
+msgstr ""
+
+#: patterns/titulo-blog.php
+msgctxt "Pattern title"
+msgid "Título do blog"
+msgstr ""
+
+#: patterns/titulo-blog.php
+msgctxt "Pattern description"
+msgid "Abertura da página de posts."
+msgstr ""
+
+#: patterns/titulo-blog.php:14
+#: patterns/ultimos-posts.php:17
+msgid "Últimas publicações"
+msgstr ""
+
+#: patterns/titulo-busca.php
+msgctxt "Pattern title"
+msgid "Título da busca"
+msgstr ""
+
+#: patterns/titulo-busca.php
+msgctxt "Pattern description"
+msgid "Abertura da página de resultados da busca."
+msgstr ""
+
+#: patterns/ultimos-posts.php
+msgctxt "Pattern title"
+msgid "Últimas publicações (grade)"
+msgstr ""
+
+#: patterns/ultimos-posts.php
+msgctxt "Pattern description"
+msgid "Título de seção e os 6 posts mais recentes em cards."
+msgstr ""
+
+#: patterns/ultimos-posts.php:21
+msgid "Ver todas →"
+msgstr ""
+
+#: patterns/vaga-card.php
+msgctxt "Pattern title"
+msgid "Card de vaga"
+msgstr ""
+
+#: patterns/vaga-card.php
+msgctxt "Pattern description"
+msgid "Uma vaga com cargo, empresa, modelo, stack e faixa salarial."
+msgstr ""
+
+#: patterns/vaga-card.php:15
+msgid "Desenvolvedor(a) Laravel Pleno"
+msgstr ""
+
+#: patterns/vaga-card.php:19
+msgid "[Empresa] · Remoto (Brasil) · CLT"
+msgstr ""
+
+#: patterns/vaga-card.php:29
+msgid "R$ [faixa salarial]"
+msgstr ""
+
+#: patterns/vaga-card.php:34
+msgid "Candidatar-se"
+msgstr ""
+
+#: patterns/vagas-faixa.php
+msgctxt "Pattern title"
+msgid "Faixa de vagas"
+msgstr ""
+
+#: patterns/vagas-faixa.php
+msgctxt "Pattern description"
+msgid "Chamada mostarda para a página de vagas."
+msgstr ""
+
+#: patterns/vagas-faixa.php:15
+msgid "Em breve"
+msgstr ""
+
+#: patterns/vagas-faixa.php:19
+msgid "Vagas de tecnologia, sem poluição."
+msgstr ""
+
+#: patterns/vagas-faixa.php:23
+msgid "Filtre por stack, remoto de verdade e faixa salarial informada. Grátis, mantido por anúncios discretos."
+msgstr ""
+
+#: patterns/vagas-pagina.php
+msgctxt "Pattern title"
+msgid "Página de vagas (início)"
+msgstr ""
+
+#: patterns/vagas-pagina.php
+msgctxt "Pattern description"
+msgid "Conteúdo inicial da página Vagas: aviso de \"em breve\", vagas selecionadas e espaço patrocinado."
+msgstr ""
+
+#: patterns/vagas-pagina.php:13
+msgid "Em breve: busca com filtros"
+msgstr ""
+
+#: patterns/vagas-pagina.php:17
+msgid "Vagas selecionadas"
+msgstr ""
+
+#: patterns/vagas-pagina.php:21
+msgid "A busca com filtros por stack, senioridade, remoto de verdade e salário informado está em construção. Enquanto isso, as vagas que valem a pena aparecem aqui."
+msgstr ""
+
+#: patterns/vagas-pagina.php:31
+msgid "Dados pessoais (CV e alertas) serão tratados conforme a LGPD, com opção de exportar ou excluir tudo a qualquer momento."
+msgstr ""
+
+#: patterns/vagas-topo.php
+msgctxt "Pattern title"
+msgid "Topo da página de vagas"
+msgstr ""
+
+#: patterns/vagas-topo.php
+msgctxt "Pattern description"
+msgid "Faixa mostarda com o título da página e a chamada."
+msgstr ""
+
+#: patterns/vagas-topo.php:16
+msgid "Vagas de tecnologia sem poluição: stack, remoto de verdade e faixa salarial informada."
+msgstr ""
+
+#: blocks/anuncio/index.js:10
+msgid "Horizontal (entre seções)"
+msgstr ""
+
+#: blocks/anuncio/index.js:11
+msgid "Lateral (300 × 250)"
+msgstr ""
+
+#: blocks/anuncio/index.js:13
+msgid "Patrocinado (vagas)"
+msgstr ""
+
+#: blocks/anuncio/index.js:40
+msgid "Espaço de anúncio"
+msgstr ""
+
+#: blocks/anuncio/index.js:42
+msgid "Espaço"
+msgstr ""
+
+#: blocks/anuncio/index.js:55
+msgid "o código fica em Aparência › Anúncios"
+msgstr ""
+
+#: blocks/idiomas/index.js:14
+msgid "Seletor de idioma (aparece com o Polylang ativo)"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra pequeno"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Pequeno"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Médio"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Grande"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra grande"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Título de seção"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Título de página"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Destaque"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "JetBrains Mono"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fundo"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fundo escuro"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Superfície"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Superfície 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fundo de código"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Borda"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Texto"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Texto suave"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Turquesa"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Turquesa claro"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Turquesa escuro"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Mostarda"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Mostarda claro"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Mostarda escuro"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Rosa"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Lilás"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Vagas"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Página sem título (largura total)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Cabeçalho"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Rodapé"
+msgstr ""
+
+#: blocks/anuncio/block.json
+msgctxt "block title"
+msgid "Anúncio"
+msgstr ""
+
+#: blocks/anuncio/block.json
+msgctxt "block description"
+msgid "Mostra um espaço de anúncio configurado em Aparência › Anúncios."
+msgstr ""
+
+#: blocks/anuncio/block.json
+msgctxt "block keyword"
+msgid "anuncio"
+msgstr ""
+
+#: blocks/anuncio/block.json
+msgctxt "block keyword"
+msgid "publicidade"
+msgstr ""
+
+#: blocks/anuncio/block.json
+msgctxt "block keyword"
+msgid "adsense"
+msgstr ""
+
+#: blocks/anuncio/block.json
+msgctxt "block keyword"
+msgid "ad"
+msgstr ""
+
+#: blocks/idiomas/block.json
+msgctxt "block title"
+msgid "Seletor de idioma"
+msgstr ""
+
+#: blocks/idiomas/block.json
+msgctxt "block description"
+msgid "Links para as versões do site em outros idiomas. Só aparece quando um plugin de idiomas (Polylang) está ativo e há mais de um idioma."
+msgstr ""
+
+#: blocks/idiomas/block.json
+msgctxt "block keyword"
+msgid "idioma"
+msgstr ""
+
+#: blocks/idiomas/block.json
+msgctxt "block keyword"
+msgid "language"
+msgstr ""
+
+#: blocks/idiomas/block.json
+msgctxt "block keyword"
+msgid "polylang"
+msgstr ""
+
+#: blocks/idiomas/block.json
+msgctxt "block keyword"
+msgid "tradução"
+msgstr ""

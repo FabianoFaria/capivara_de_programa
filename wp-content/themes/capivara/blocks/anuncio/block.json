@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "capivara/anuncio",
+	"title": "Anúncio",
+	"category": "widgets",
+	"icon": "megaphone",
+	"description": "Mostra um espaço de anúncio configurado em Aparência › Anúncios.",
+	"keywords": ["anuncio", "publicidade", "adsense", "ad"],
+	"textdomain": "capivara",
+	"attributes": {
+		"slot": {
+			"type": "string",
+			"default": "horizontal",
+			"enum": ["horizontal", "lateral", "artigo", "vagas"]
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./index.js"
+}

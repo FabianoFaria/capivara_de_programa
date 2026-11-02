@@ -5,3 +5,6 @@
 # Conteúdo do WordPress (fica no backup, não no Git), exceto os mu-plugins
 wp-content/*
 !wp-content/mu-plugins/
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/capivara/

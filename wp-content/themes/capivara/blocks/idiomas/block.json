@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "capivara/idiomas",
+	"title": "Seletor de idioma",
+	"category": "widgets",
+	"icon": "translation",
+	"description": "Links para as versões do site em outros idiomas. Só aparece quando um plugin de idiomas (Polylang) está ativo e há mais de um idioma.",
+	"keywords": ["idioma", "language", "polylang", "tradução"],
+	"textdomain": "capivara",
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"editorScript": "file:./index.js"
+}
