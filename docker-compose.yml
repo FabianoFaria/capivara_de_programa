@@ -31,6 +31,7 @@ services:
     volumes:
       - ./wp-content:/var/www/html/wp-content
       - ./php-uploads.ini:/usr/local/etc/php/conf.d/zz-uploads.ini:ro
+      - ./apache-headers.load:/etc/apache2/mods-enabled/headers.load:ro
     mem_limit: 512m       # um pico aqui não aperta o blog nem o n8n
     networks:
       - proxy             # onde está o nginx-proxy
