@@ -11,6 +11,7 @@ services:
         define('WP_HOME', 'https://capivaradeprograma.com.br');
         define('WP_SITEURL', 'https://capivaradeprograma.com.br');
         define('DISABLE_WP_CRON', true);
+        if (!defined('WP_CACHE')) define('WP_CACHE', true);
         define('WPMS_ON', true);
         define('WPMS_MAILER', 'smtp');
         define('WPMS_SMTP_HOST', 'smtp.gmail.com');
