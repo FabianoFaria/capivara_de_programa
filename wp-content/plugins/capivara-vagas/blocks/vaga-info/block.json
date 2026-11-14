@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "capivara/vaga-info",
+	"title": "Dados da vaga",
+	"category": "widgets",
+	"icon": "businessperson",
+	"description": "Empresa, modelo, salário, stack e botão de candidatura da vaga atual. Funciona dentro do Loop de consulta e no modelo da vaga.",
+	"keywords": ["vaga", "emprego", "job", "salário"],
+	"textdomain": "capivara-vagas",
+	"usesContext": ["postId", "postType"],
+	"attributes": {
+		"layout": {
+			"type": "string",
+			"default": "card",
+			"enum": ["card", "resumo"]
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css",
+	"render": "file:./render.php"
+}

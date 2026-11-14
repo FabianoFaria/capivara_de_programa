@@ -1,0 +1,110 @@
+/* Dados da vaga. Usa as cores do tema quando existem, com alternativas neutras. */
+.capivara-vaga-info {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	font-size: 15px;
+}
+
+.capivara-vaga-info p {
+	margin: 0;
+}
+
+.capivara-vaga-info__linha {
+	color: var(--wp--preset--color--muted, #6b6b75);
+}
+
+.capivara-vaga-info__salario {
+	font-weight: 700;
+	color: var(--wp--preset--color--secondary-light, #9a7a10);
+}
+
+.capivara-vaga-info__salario.is-vazio {
+	font-weight: 400;
+	color: var(--wp--preset--color--muted, #6b6b75);
+}
+
+.capivara-vaga-info__stack {
+	font-family: var(--wp--preset--font-family--mono, monospace);
+	font-size: 13px;
+	color: var(--wp--preset--color--primary-light, #1d7f82);
+}
+
+.capivara-vaga-info__stack a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.capivara-vaga-info__stack a:hover {
+	text-decoration: underline;
+}
+
+.capivara-vaga-info__selo {
+	align-self: flex-start;
+	padding: 2px 10px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	background: var(--wp--preset--color--secondary, #d6ae2c);
+	color: var(--wp--preset--color--base, #0e0e10);
+}
+
+/* Resumo (página da vaga) */
+.capivara-vaga-info.is-layout-resumo {
+	gap: 16px;
+	padding: 24px;
+	border: 1px solid var(--wp--preset--color--border, #ddd);
+	border-radius: 16px;
+	background: var(--wp--preset--color--surface, transparent);
+}
+
+.capivara-vaga-info__lista {
+	display: grid;
+	gap: 12px;
+	margin: 0;
+}
+
+.capivara-vaga-info__lista > div {
+	display: grid;
+	gap: 2px;
+}
+
+.capivara-vaga-info__lista dt {
+	font-size: 12px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--muted, #6b6b75);
+}
+
+.capivara-vaga-info__lista dd {
+	margin: 0;
+	font-weight: 600;
+}
+
+.capivara-vaga-info__botao {
+	display: block;
+	padding: 14px 20px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+	background: var(--wp--preset--color--secondary, #d6ae2c);
+	color: var(--wp--preset--color--base, #0e0e10);
+}
+
+.capivara-vaga-info__botao:hover {
+	background: var(--wp--preset--color--secondary-light, #f0cf63);
+	color: var(--wp--preset--color--base, #0e0e10);
+}
+
+.capivara-vaga-info__fonte,
+.capivara-vaga-info__aviso {
+	font-size: 13px;
+	color: var(--wp--preset--color--muted, #6b6b75);
+}
+
+.capivara-vaga-info.is-preview {
+	opacity: 0.85;
+}

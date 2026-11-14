@@ -8,3 +8,6 @@ wp-content/*
 !wp-content/themes/
 wp-content/themes/*
 !wp-content/themes/capivara/
+!wp-content/plugins/
+wp-content/plugins/*
+!wp-content/plugins/capivara-vagas/
