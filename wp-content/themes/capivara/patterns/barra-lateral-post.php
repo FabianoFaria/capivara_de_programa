@@ -23,7 +23,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"secondary"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-color has-base-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( capivara_page_url( 'vagas' ) ); ?>"><?php esc_html_e( 'Ver vagas →', 'capivara' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-secondary-color has-base-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( capivara_vagas_url() ); ?>"><?php esc_html_e( 'Ver vagas →', 'capivara' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

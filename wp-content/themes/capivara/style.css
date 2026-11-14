@@ -7,7 +7,7 @@ Description: Tema de blocos escuro para o Capivara de Programa — notícias de 
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Version: 1.1.0
+Version: 1.2.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: capivara
@@ -452,4 +452,60 @@ ul.capivara-chips {
 
 .capivara-idiomas--placeholder {
 	opacity: 0.6;
+}
+
+/* Vagas (plugin Capivara Vagas) */
+.capivara-vaga .wp-block-post-title a {
+	color: var(--wp--preset--color--contrast);
+	text-decoration: none;
+}
+
+.capivara-vaga .wp-block-post-title a:hover {
+	color: var(--wp--preset--color--secondary-light);
+}
+
+.capivara-vagas-lista .wp-block-post-template,
+.capivara-faixa-vagas .wp-block-post-template {
+	display: grid;
+	gap: 16px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.capivara-faixa-vagas .wp-block-post-template {
+	gap: 12px;
+}
+
+.capivara-chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 0;
+}
+
+.capivara-chips a {
+	display: inline-block;
+	padding: 6px 14px;
+	border: 1px solid currentColor;
+	border-radius: 999px;
+	color: inherit;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.capivara-chips a:hover {
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--secondary);
+}
+
+.has-secondary-background-color a:not(.wp-element-button) {
+	color: inherit;
+}
+
+@media (min-width: 782px) {
+	.capivara-sticky {
+		position: sticky;
+		top: 24px;
+	}
 }

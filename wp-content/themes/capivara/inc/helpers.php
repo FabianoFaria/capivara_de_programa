@@ -54,6 +54,17 @@ function capivara_page_url( $slug ) {
 }
 
 /**
+ * Endereço da lista de vagas. Com o plugin Capivara Vagas, /vagas/ é o arquivo do
+ * tipo de post "vaga"; sem ele, é a página "vagas". Nos dois casos o endereço é o
+ * mesmo, e um valor fixo evita que o cache dos padrões guarde um link antigo.
+ *
+ * @return string
+ */
+function capivara_vagas_url() {
+	return home_url( '/vagas/' );
+}
+
+/**
  * Termo equivalente no idioma atual, quando há um plugin de idiomas (Polylang).
  * Sem plugin, ou sem tradução, devolve o próprio termo.
  *

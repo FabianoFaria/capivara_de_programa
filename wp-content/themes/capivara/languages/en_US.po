@@ -1,25 +1,23 @@
-# Copyright (C) 2026 Capivara de Programa
-# This file is distributed under the GNU General Public License v2 or later.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Capivara de Programa 1.1.0\n"
+"Project-Id-Version: Capivara de Programa 1.2.0\n"
 "Report-Msgid-Bugs-To: https://capivaradeprograma.com.br\n"
+"POT-Creation-Date: 2026-11-01T22:35:35+00:00\n"
+"PO-Revision-Date: 2026-11-13 13:07+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Capivara de Programa\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Language: en_US\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-01T22:35:35+00:00\n"
-"PO-Revision-Date: 2026-11-01 19:30-0300\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: capivara\n"
+"X-Generator: WP-CLI 2.12.0\n"
 
 #. Theme Name of the theme
 #. Author of the theme
-#: style.css
-#: functions.php:78
+#: style.css functions.php:78
 msgid "Capivara de Programa"
 msgstr ""
 
@@ -31,8 +29,14 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "Tema de blocos escuro para o Capivara de Programa — notícias de tecnologia, tutoriais e vagas. Paleta do logo (preto, turquesa, mostarda e rosa), fontes locais (Montserrat, Inter e JetBrains Mono) e espaços de anúncio discretos."
-msgstr "Dark block theme for Capivara de Programa — tech news, tutorials and jobs. Logo palette (black, teal, mustard and pink), local fonts (Montserrat, Inter and JetBrains Mono) and unobtrusive ad slots."
+msgid ""
+"Tema de blocos escuro para o Capivara de Programa — notícias de tecnologia, "
+"tutoriais e vagas. Paleta do logo (preto, turquesa, mostarda e rosa), fontes"
+" locais (Montserrat, Inter e JetBrains Mono) e espaços de anúncio discretos."
+msgstr ""
+"Dark block theme for Capivara de Programa — tech news, tutorials and jobs. "
+"Logo palette (black, teal, mustard and pink), local fonts (Montserrat, Inter"
+" and JetBrains Mono) and unobtrusive ad slots."
 
 #: functions.php:61
 msgid "Copiar"
@@ -54,8 +58,7 @@ msgstr "Horizontal (between sections, 728 × 90 / 320 × 100)"
 msgid "Lateral (barra do post, 300 × 250)"
 msgstr "Sidebar (post sidebar, 300 × 250)"
 
-#: inc/anuncios.php:25
-#: blocks/anuncio/index.js:12
+#: inc/anuncios.php:25 blocks/anuncio/index.js:12
 msgid "No meio do artigo"
 msgstr "Inside the article"
 
@@ -63,27 +66,30 @@ msgstr "Inside the article"
 msgid "Patrocinado na lista de vagas"
 msgstr "Sponsored in the job list"
 
-#: inc/anuncios.php:51
-#: inc/anuncios.php:52
-#: inc/anuncios.php:109
+#: inc/anuncios.php:51 inc/anuncios.php:52 inc/anuncios.php:109
 msgid "Anúncios"
 msgstr "Ads"
 
 #: inc/anuncios.php:110
-msgid "Cole aqui o código de cada espaço (por exemplo, um bloco de anúncio do Google AdSense). Espaço vazio não aparece para visitantes."
-msgstr "Paste the code for each slot here (for example, a Google AdSense ad unit). Empty slots are not shown to visitors."
+msgid ""
+"Cole aqui o código de cada espaço (por exemplo, um bloco de anúncio do "
+"Google AdSense). Espaço vazio não aparece para visitantes."
+msgstr ""
+"Paste the code for each slot here (for example, a Google AdSense ad unit). "
+"Empty slots are not shown to visitors."
 
 #: inc/anuncios.php:112
-msgid "Seu usuário não pode salvar scripts. Peça a um administrador para colar o código dos anúncios."
-msgstr "Your user cannot save scripts. Ask an administrator to paste the ad code."
+msgid ""
+"Seu usuário não pode salvar scripts. Peça a um administrador para colar o "
+"código dos anúncios."
+msgstr ""
+"Your user cannot save scripts. Ask an administrator to paste the ad code."
 
 #: inc/anuncios.php:126
 msgid "Anúncio do artigo aparece depois do parágrafo nº"
 msgstr "Article ad appears after paragraph no."
 
-#: inc/anuncios.php:157
-#: inc/anuncios.php:172
-#: inc/anuncios.php:173
+#: inc/anuncios.php:157 inc/anuncios.php:172 inc/anuncios.php:173
 #: blocks/anuncio/index.js:54
 msgid "Publicidade"
 msgstr "Advertisement"
@@ -91,45 +97,30 @@ msgstr "Advertisement"
 #. translators: %s: nome do espaço
 #: inc/anuncios.php:161
 #, php-format
-msgid "Espaço \"%s\" vazio. Configure em Aparência › Anúncios (só administradores veem este aviso)."
-msgstr "Slot \"%s\" is empty. Set it up under Appearance › Ads (only administrators see this notice)."
+msgid ""
+"Espaço \"%s\" vazio. Configure em Aparência › Anúncios (só administradores "
+"veem este aviso)."
+msgstr ""
+"Slot \"%s\" is empty. Set it up under Appearance › Ads (only administrators "
+"see this notice)."
 
 #: inc/anuncios.php:173
 msgid "Patrocinado"
 msgstr "Sponsored"
 
-#: inc/ativacao.php:18
-#: patterns/header.php:29
-msgid "Notícias"
-msgstr "News"
-
-#: inc/ativacao.php:19
-#: patterns/header.php:31
-msgid "Tutoriais"
-msgstr "Tutorials"
-
-#: inc/ativacao.php:20
-msgid "Diário de dev"
-msgstr "Dev diary"
-
-#: inc/ativacao.php:38
-#: patterns/header.php:33
-msgid "Vagas"
-msgstr "Jobs"
-
-#: inc/helpers.php:205
+#: inc/helpers.php:216 patterns/vagas-lista.php:43
 msgid "Anteriores"
 msgstr "Previous"
 
-#: inc/helpers.php:205
+#: inc/helpers.php:216
 msgid "Próximos"
 msgstr "Next"
 
-#: inc/helpers.php:210
+#: inc/helpers.php:221
 msgid "Nada por aqui ainda. Tente outra busca ou volte em breve."
 msgstr "Nothing here yet. Try another search or check back soon."
 
-#: inc/idiomas.php:63
+#: inc/idiomas.php:98
 msgid "Idioma"
 msgstr "Language"
 
@@ -163,13 +154,11 @@ msgstr "Looking for a job?"
 msgid "Veja vagas de tecnologia selecionadas, com stack e salário informados."
 msgstr "See hand-picked tech jobs with the stack and salary listed."
 
-#: patterns/barra-lateral-post.php:26
-#: patterns/vagas-faixa.php:30
+#: patterns/barra-lateral-post.php:26 patterns/vagas-faixa.php:28
 msgid "Ver vagas →"
 msgstr "See jobs →"
 
-#: patterns/barra-lateral-post.php:31
-#: patterns/conteudo-404.php:25
+#: patterns/barra-lateral-post.php:31 patterns/conteudo-404.php:25
 msgid "Buscar no site"
 msgstr "Search the site"
 
@@ -177,10 +166,8 @@ msgstr "Search the site"
 msgid "Buscar tutoriais…"
 msgstr "Search tutorials…"
 
-#: patterns/barra-lateral-post.php:31
-#: patterns/conteudo-404.php:25
-#: patterns/header.php:41
-#: patterns/titulo-busca.php:15
+#: patterns/barra-lateral-post.php:31 patterns/conteudo-404.php:25
+#: patterns/header.php:41 patterns/titulo-busca.php:15
 msgid "Buscar"
 msgstr "Search"
 
@@ -220,8 +207,7 @@ msgstr "Error 404: the capybara could not find this page."
 msgid "O link pode ter mudado ou o post saiu do ar. Tente uma busca:"
 msgstr "The link may have changed or the post was taken down. Try a search:"
 
-#: patterns/conteudo-404.php:25
-#: patterns/header.php:41
+#: patterns/conteudo-404.php:25 patterns/header.php:41
 #: patterns/titulo-busca.php:15
 msgid "Buscar no site…"
 msgstr "Search the site…"
@@ -283,7 +269,8 @@ msgstr "Post grid (archive)"
 #: patterns/grade-posts.php
 msgctxt "Pattern description"
 msgid "Query Loop que segue a página atual (blog, categoria, tag, busca)."
-msgstr "Query Loop that follows the current page (blog, category, tag, search)."
+msgstr ""
+"Query Loop that follows the current page (blog, category, tag, search)."
 
 #: patterns/header.php
 msgctxt "Pattern title"
@@ -297,6 +284,18 @@ msgstr "Capivara de Programa — home"
 #: patterns/header.php:27
 msgid "Início"
 msgstr "Home"
+
+#: patterns/header.php:29
+msgid "Notícias"
+msgstr "News"
+
+#: patterns/header.php:31
+msgid "Tutoriais"
+msgstr "Tutorials"
+
+#: patterns/header.php:33 patterns/vagas-faixa.php:15
+msgid "Vagas"
+msgstr "Jobs"
 
 #: patterns/header.php:35
 msgid "Lives"
@@ -321,8 +320,13 @@ msgid "Programação & Cia., do terminal à próxima vaga."
 msgstr "Programming & Co., from the terminal to your next job."
 
 #: patterns/hero-live.php:23
-msgid "Notícias de tecnologia comentadas em português, tutoriais práticos de Linux, Docker, WordPress, n8n, Laravel e Node, e uma busca de vagas feita para devs."
-msgstr "Tech news with commentary, hands-on tutorials on Linux, Docker, WordPress, n8n, Laravel and Node, and a job search built for devs."
+msgid ""
+"Notícias de tecnologia comentadas em português, tutoriais práticos de Linux,"
+" Docker, WordPress, n8n, Laravel e Node, e uma busca de vagas feita para "
+"devs."
+msgstr ""
+"Tech news with commentary, hands-on tutorials on Linux, Docker, WordPress, "
+"n8n, Laravel and Node, and a job search built for devs."
 
 #: patterns/hero-live.php:28
 msgid "Ler os tutoriais →"
@@ -381,7 +385,9 @@ msgstr "Get new tutorials"
 
 #: patterns/redes-sociais.php:44
 msgid "Siga o Squad no daily.dev ou assine o feed RSS no seu leitor favorito."
-msgstr "Follow the Squad on daily.dev or subscribe to the RSS feed in your favorite reader."
+msgstr ""
+"Follow the Squad on daily.dev or subscribe to the RSS feed in your favorite "
+"reader."
 
 #: patterns/redes-sociais.php:49
 msgid "Squad no daily.dev"
@@ -453,8 +459,7 @@ msgctxt "Pattern description"
 msgid "Abertura da página de posts."
 msgstr "Header for the posts page."
 
-#: patterns/titulo-blog.php:14
-#: patterns/ultimos-posts.php:17
+#: patterns/titulo-blog.php:14 patterns/ultimos-posts.php:17
 msgid "Últimas publicações"
 msgstr "Latest posts"
 
@@ -508,6 +513,32 @@ msgstr "R$ [salary range]"
 msgid "Candidatar-se"
 msgstr "Apply"
 
+#: patterns/vaga-detalhe.php
+msgctxt "Pattern title"
+msgid "Página da vaga"
+msgstr "Job page"
+
+#: patterns/vaga-detalhe.php
+msgctxt "Pattern description"
+msgid ""
+"Título, descrição e caixa com os dados e o botão de candidatura (plugin "
+"Capivara Vagas)."
+msgstr ""
+"Title, description and a box with the job details and apply button (Capivara"
+" Vagas plugin)."
+
+#: patterns/vaga-detalhe.php:15 patterns/vagas-lista.php:14
+msgid "vagas"
+msgstr "jobs"
+
+#: patterns/vaga-detalhe.php:22
+msgid "Publicada em"
+msgstr "Posted on"
+
+#: patterns/vaga-detalhe.php:34
+msgid "← Ver todas as vagas"
+msgstr "← See all jobs"
+
 #: patterns/vagas-faixa.php
 msgctxt "Pattern title"
 msgid "Faixa de vagas"
@@ -515,20 +546,68 @@ msgstr "Jobs strip"
 
 #: patterns/vagas-faixa.php
 msgctxt "Pattern description"
-msgid "Chamada mostarda para a página de vagas."
-msgstr "Mustard call-to-action for the jobs page."
-
-#: patterns/vagas-faixa.php:15
-msgid "Em breve"
-msgstr "Coming soon"
+msgid ""
+"Chamada mostarda para a página de vagas, com as 3 vagas mais recentes "
+"(plugin Capivara Vagas)."
+msgstr ""
+"Mustard call-to-action for the jobs page, with the 3 latest jobs (Capivara "
+"Vagas plugin)."
 
 #: patterns/vagas-faixa.php:19
 msgid "Vagas de tecnologia, sem poluição."
 msgstr "Tech jobs, without the clutter."
 
 #: patterns/vagas-faixa.php:23
-msgid "Filtre por stack, remoto de verdade e faixa salarial informada. Grátis, mantido por anúncios discretos."
-msgstr "Filter by stack, truly remote roles and listed salary. Free, supported by unobtrusive ads."
+msgid ""
+"Filtre por stack e por modelo de trabalho, com o salário sempre que a "
+"empresa informa. Grátis, mantido por anúncios discretos."
+msgstr ""
+"Filter by stack and work model, with the salary whenever the company shares "
+"it. Free, supported by unobtrusive ads."
+
+#: patterns/vagas-lista.php
+msgctxt "Pattern title"
+msgid "Lista de vagas"
+msgstr "Job list"
+
+#: patterns/vagas-lista.php
+msgctxt "Pattern description"
+msgid ""
+"Topo mostarda com filtros por modelo e stack, anúncio patrocinado e a lista "
+"de vagas (plugin Capivara Vagas)."
+msgstr ""
+"Mustard header with work model and stack filters, a sponsored slot and the "
+"job list (Capivara Vagas plugin)."
+
+#: patterns/vagas-lista.php:20
+msgid ""
+"Vagas de desenvolvimento e infraestrutura, com stack, modelo de trabalho e "
+"salário sempre que a empresa informa."
+msgstr ""
+"Development and infrastructure jobs, with stack, work model and salary "
+"whenever the company shares it."
+
+#: patterns/vagas-lista.php:47
+msgid "Próximas"
+msgstr "Next"
+
+#: patterns/vagas-lista.php:52
+msgid "Nenhuma vaga aberta por aqui agora. Volte em breve."
+msgstr "No open jobs right now. Check back soon."
+
+#. translators: 1: link "Anuncie uma vaga", 2: link "avise pelo contato".
+#: patterns/vagas-lista.php:61
+#, php-format
+msgid "Sua empresa está contratando? %1$s. Viu uma vaga com problema? %2$s."
+msgstr "Is your company hiring? %1$s. Spotted a problem with a job? %2$s."
+
+#: patterns/vagas-lista.php:62
+msgid "Anuncie uma vaga"
+msgstr "Post a job"
+
+#: patterns/vagas-lista.php:63
+msgid "Avise pelo contato"
+msgstr "Let us know"
 
 #: patterns/vagas-pagina.php
 msgctxt "Pattern title"
@@ -537,8 +616,12 @@ msgstr "Jobs page (starter)"
 
 #: patterns/vagas-pagina.php
 msgctxt "Pattern description"
-msgid "Conteúdo inicial da página Vagas: aviso de \"em breve\", vagas selecionadas e espaço patrocinado."
-msgstr "Starter content for the Jobs page: \"coming soon\" notice, selected jobs and a sponsored slot."
+msgid ""
+"Conteúdo inicial da página Vagas: aviso de \"em breve\", vagas selecionadas "
+"e espaço patrocinado."
+msgstr ""
+"Starter content for the Jobs page: \"coming soon\" notice, selected jobs and"
+" a sponsored slot."
 
 #: patterns/vagas-pagina.php:13
 msgid "Em breve: busca com filtros"
@@ -549,12 +632,21 @@ msgid "Vagas selecionadas"
 msgstr "Selected jobs"
 
 #: patterns/vagas-pagina.php:21
-msgid "A busca com filtros por stack, senioridade, remoto de verdade e salário informado está em construção. Enquanto isso, as vagas que valem a pena aparecem aqui."
-msgstr "Search with filters for stack, seniority, truly remote roles and listed salary is under construction. Meanwhile, the jobs worth a look show up here."
+msgid ""
+"A busca com filtros por stack, senioridade, remoto de verdade e salário "
+"informado está em construção. Enquanto isso, as vagas que valem a pena "
+"aparecem aqui."
+msgstr ""
+"Search with filters for stack, seniority, truly remote roles and listed "
+"salary is under construction. Meanwhile, the jobs worth a look show up here."
 
 #: patterns/vagas-pagina.php:31
-msgid "Dados pessoais (CV e alertas) serão tratados conforme a LGPD, com opção de exportar ou excluir tudo a qualquer momento."
-msgstr "Personal data (résumés and alerts) will be handled under Brazil's LGPD, and you can export or delete all of it at any time."
+msgid ""
+"Dados pessoais (CV e alertas) serão tratados conforme a LGPD, com opção de "
+"exportar ou excluir tudo a qualquer momento."
+msgstr ""
+"Personal data (résumés and alerts) will be handled under Brazil's LGPD, and "
+"you can export or delete all of it at any time."
 
 #: patterns/vagas-topo.php
 msgctxt "Pattern title"
@@ -567,8 +659,11 @@ msgid "Faixa mostarda com o título da página e a chamada."
 msgstr "Mustard strip with the page title and tagline."
 
 #: patterns/vagas-topo.php:16
-msgid "Vagas de tecnologia sem poluição: stack, remoto de verdade e faixa salarial informada."
-msgstr "Tech jobs without the clutter: stack, truly remote roles and listed salary."
+msgid ""
+"Vagas de tecnologia sem poluição: stack, remoto de verdade e faixa salarial "
+"informada."
+msgstr ""
+"Tech jobs without the clutter: stack, truly remote roles and listed salary."
 
 #: blocks/anuncio/index.js:10
 msgid "Horizontal (entre seções)"
@@ -825,8 +920,12 @@ msgstr "Language switcher"
 
 #: blocks/idiomas/block.json
 msgctxt "block description"
-msgid "Links para as versões do site em outros idiomas. Só aparece quando um plugin de idiomas (Polylang) está ativo e há mais de um idioma."
-msgstr "Links to the site in other languages. Only shown when a language plugin (Polylang) is active and there is more than one language."
+msgid ""
+"Links para as versões do site em outros idiomas. Só aparece quando um plugin"
+" de idiomas (Polylang) está ativo e há mais de um idioma."
+msgstr ""
+"Links to the site in other languages. Only shown when a language plugin "
+"(Polylang) is active and there is more than one language."
 
 #: blocks/idiomas/block.json
 msgctxt "block keyword"

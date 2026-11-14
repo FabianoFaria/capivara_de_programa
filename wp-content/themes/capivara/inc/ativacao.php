@@ -27,7 +27,8 @@ function capivara_on_activate() {
 		}
 	}
 
-	if ( ! get_page_by_path( 'vagas' ) ) {
+	// Com o plugin Capivara Vagas, /vagas/ é a lista de vagas do plugin e a página não é necessária.
+	if ( ! post_type_exists( 'vaga' ) && ! get_page_by_path( 'vagas' ) ) {
 		$content = '';
 		$pattern = WP_Block_Patterns_Registry::get_instance()->get_registered( 'capivara/vagas-pagina' );
 		if ( $pattern && ! empty( $pattern['content'] ) ) {

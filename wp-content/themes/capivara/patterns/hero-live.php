@@ -29,7 +29,7 @@
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( capivara_page_url( 'vagas' ) ); ?>"><?php esc_html_e( 'Buscar vagas', 'capivara' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( capivara_vagas_url() ); ?>"><?php esc_html_e( 'Buscar vagas', 'capivara' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

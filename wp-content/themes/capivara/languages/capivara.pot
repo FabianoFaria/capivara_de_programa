@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Capivara de Programa 1.1.0\n"
-"Report-Msgid-Bugs-To: https://capivaradeprograma.com.br\n"
+"Project-Id-Version: Capivara de Programa 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/capivara\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Capivara de Programa\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-01T22:35:35+00:00\n"
+"POT-Creation-Date: 2026-11-13T16:06:53+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: capivara\n"
@@ -96,38 +96,20 @@ msgstr ""
 msgid "Patrocinado"
 msgstr ""
 
-#: inc/ativacao.php:18
-#: patterns/header.php:29
-msgid "Notícias"
-msgstr ""
-
-#: inc/ativacao.php:19
-#: patterns/header.php:31
-msgid "Tutoriais"
-msgstr ""
-
-#: inc/ativacao.php:20
-msgid "Diário de dev"
-msgstr ""
-
-#: inc/ativacao.php:38
-#: patterns/header.php:33
-msgid "Vagas"
-msgstr ""
-
-#: inc/helpers.php:205
+#: inc/helpers.php:216
+#: patterns/vagas-lista.php:43
 msgid "Anteriores"
 msgstr ""
 
-#: inc/helpers.php:205
+#: inc/helpers.php:216
 msgid "Próximos"
 msgstr ""
 
-#: inc/helpers.php:210
+#: inc/helpers.php:221
 msgid "Nada por aqui ainda. Tente outra busca ou volte em breve."
 msgstr ""
 
-#: inc/idiomas.php:63
+#: inc/idiomas.php:98
 msgid "Idioma"
 msgstr ""
 
@@ -162,7 +144,7 @@ msgid "Veja vagas de tecnologia selecionadas, com stack e salário informados."
 msgstr ""
 
 #: patterns/barra-lateral-post.php:26
-#: patterns/vagas-faixa.php:30
+#: patterns/vagas-faixa.php:28
 msgid "Ver vagas →"
 msgstr ""
 
@@ -294,6 +276,19 @@ msgstr ""
 
 #: patterns/header.php:27
 msgid "Início"
+msgstr ""
+
+#: patterns/header.php:29
+msgid "Notícias"
+msgstr ""
+
+#: patterns/header.php:31
+msgid "Tutoriais"
+msgstr ""
+
+#: patterns/header.php:33
+#: patterns/vagas-faixa.php:15
+msgid "Vagas"
 msgstr ""
 
 #: patterns/header.php:35
@@ -506,6 +501,29 @@ msgstr ""
 msgid "Candidatar-se"
 msgstr ""
 
+#: patterns/vaga-detalhe.php
+msgctxt "Pattern title"
+msgid "Página da vaga"
+msgstr ""
+
+#: patterns/vaga-detalhe.php
+msgctxt "Pattern description"
+msgid "Título, descrição e caixa com os dados e o botão de candidatura (plugin Capivara Vagas)."
+msgstr ""
+
+#: patterns/vaga-detalhe.php:15
+#: patterns/vagas-lista.php:14
+msgid "vagas"
+msgstr ""
+
+#: patterns/vaga-detalhe.php:22
+msgid "Publicada em"
+msgstr ""
+
+#: patterns/vaga-detalhe.php:34
+msgid "← Ver todas as vagas"
+msgstr ""
+
 #: patterns/vagas-faixa.php
 msgctxt "Pattern title"
 msgid "Faixa de vagas"
@@ -513,11 +531,7 @@ msgstr ""
 
 #: patterns/vagas-faixa.php
 msgctxt "Pattern description"
-msgid "Chamada mostarda para a página de vagas."
-msgstr ""
-
-#: patterns/vagas-faixa.php:15
-msgid "Em breve"
+msgid "Chamada mostarda para a página de vagas, com as 3 vagas mais recentes (plugin Capivara Vagas)."
 msgstr ""
 
 #: patterns/vagas-faixa.php:19
@@ -525,7 +539,43 @@ msgid "Vagas de tecnologia, sem poluição."
 msgstr ""
 
 #: patterns/vagas-faixa.php:23
-msgid "Filtre por stack, remoto de verdade e faixa salarial informada. Grátis, mantido por anúncios discretos."
+msgid "Filtre por stack e por modelo de trabalho, com o salário sempre que a empresa informa. Grátis, mantido por anúncios discretos."
+msgstr ""
+
+#: patterns/vagas-lista.php
+msgctxt "Pattern title"
+msgid "Lista de vagas"
+msgstr ""
+
+#: patterns/vagas-lista.php
+msgctxt "Pattern description"
+msgid "Topo mostarda com filtros por modelo e stack, anúncio patrocinado e a lista de vagas (plugin Capivara Vagas)."
+msgstr ""
+
+#: patterns/vagas-lista.php:20
+msgid "Vagas de desenvolvimento e infraestrutura, com stack, modelo de trabalho e salário sempre que a empresa informa."
+msgstr ""
+
+#: patterns/vagas-lista.php:47
+msgid "Próximas"
+msgstr ""
+
+#: patterns/vagas-lista.php:52
+msgid "Nenhuma vaga aberta por aqui agora. Volte em breve."
+msgstr ""
+
+#. translators: 1: link "Anuncie uma vaga", 2: link "avise pelo contato".
+#: patterns/vagas-lista.php:61
+#, php-format
+msgid "Sua empresa está contratando? %1$s. Viu uma vaga com problema? %2$s."
+msgstr ""
+
+#: patterns/vagas-lista.php:62
+msgid "Anuncie uma vaga"
+msgstr ""
+
+#: patterns/vagas-lista.php:63
+msgid "Avise pelo contato"
 msgstr ""
 
 #: patterns/vagas-pagina.php

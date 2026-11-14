@@ -1,7 +1,7 @@
 === Capivara de Programa ===
 Requires at least: 6.6
 Tested up to: 7.1
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 Requires PHP: 7.4
 License: GPLv2 or later
 
@@ -82,7 +82,24 @@ Para o AdSense, lembre de criar o arquivo ads.txt na raiz do site (o AdSense mos
 
 Fontes Montserrat, Inter e JetBrains Mono: SIL Open Font License 1.1 (via Fontsource).
 
+== Vagas (plugin Capivara Vagas) ==
+
+Com o plugin Capivara Vagas ativo, o tema mostra:
+* /vagas/: lista com topo mostarda, filtros por modelo de trabalho e stack, espaço
+  "Patrocinado" e as vagas (as em destaque primeiro).
+* /vagas/stack/..., /vagas/modelo/..., /vagas/nivel/...: a mesma lista, filtrada.
+* Página de cada vaga: descrição e caixa com os dados e o botão "Candidatar-se".
+* Faixa de vagas da página inicial: as 3 vagas mais recentes.
+Sem o plugin, a faixa mostra só a chamada e o tema continua funcionando.
+
 == Changelog ==
+
+= 1.2.0 =
+* Modelos de vagas (lista, filtros e página da vaga) para o plugin Capivara Vagas.
+* Faixa de vagas da página inicial com as 3 vagas mais recentes.
+* Links de vagas apontam para /vagas/; a página "Vagas" deixa de ser criada quando o plugin existe.
+* Traduções em inglês atualizadas.
+
 
 = 1.1.0 =
 * Tema preparado para tradução: textos fixos com funções de tradução, .pot e inglês (en_US).

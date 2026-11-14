@@ -30,7 +30,7 @@
 
 <!-- wp:navigation-link {"label":"<?php echo capivara_attr( __( 'Tutoriais', 'capivara' ) ); ?>","url":"<?php echo esc_url( capivara_term_url( 'tutoriais' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"<?php echo capivara_attr( __( 'Vagas', 'capivara' ) ); ?>","url":"<?php echo esc_url( capivara_page_url( 'vagas' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"<?php echo capivara_attr( __( 'Vagas', 'capivara' ) ); ?>","url":"<?php echo esc_url( capivara_vagas_url() ); ?>","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"<?php echo capivara_attr( __( 'Lives', 'capivara' ) ); ?>","url":"<?php echo esc_url( home_url( '/#lives' ) ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- /wp:navigation -->
