@@ -2,7 +2,7 @@
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 
 Vagas de tecnologia para o Capivara de Programa.
@@ -34,9 +34,12 @@ senha de aplicativo).
   "title": "Desenvolvedor(a) Laravel Pleno",
   "status": "publish",
   "content": "<p>Descrição...</p>",
-  "vaga_modelo": [ID],          // termos: GET /wp-json/wp/v2/vaga_modelo
-  "vaga_senioridade": [ID],     // GET /wp-json/wp/v2/vaga_senioridade
-  "vaga_stack": [ID, ID],       // GET/POST /wp-json/wp/v2/vaga_stack
+  "termos": {                   // pelo nome ou slug; stacks novas são criadas
+    "modelo": ["remoto"],       // remoto | hibrido | presencial
+    "senioridade": ["pleno"],   // estagio | junior | pleno | senior | especialista
+    "stack": ["PHP", "Laravel"]
+  },
+  // (ou pelos IDs: "vaga_modelo": [ID], "vaga_senioridade": [ID], "vaga_stack": [ID])
   "acf": {
     "empresa": "Acme", "empresa_site": "https://...", "link_candidatura": "https://... ou e-mail",
     "contrato": "clt|pj|estagio|freelance|temporario|outro", "localizacao": "São Paulo/SP",
@@ -49,7 +52,19 @@ senha de aplicativo).
 Atenção: ao atualizar uma vaga pela API, envie sempre "empresa" e "link_candidatura"
 dentro de "acf" (o ACF exige os campos obrigatórios em toda gravação).
 
+== Fontes sem schema ==
+
+Vagas cujo link de fonte é do remotive.com não geram o schema JobPosting: os termos
+do Remotive proíbem enviar as vagas deles ao Google Jobs. Elas aparecem no site
+normalmente, com o crédito e o link para o Remotive. A lista de domínios pode ser
+alterada pelo filtro capivara_vagas_hosts_sem_schema.
+
 == Changelog ==
+
+= 1.1.0 =
+* Campo "termos" na API REST: modelo, senioridade e stacks pelo nome ou slug (stacks novas são criadas).
+* Vagas do Remotive sem schema JobPosting (termos de uso do Remotive).
+
 
 = 1.0.0 =
 * Primeira versão.

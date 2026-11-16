@@ -21,6 +21,14 @@ function capivara_vagas_jobposting( $post_id ) {
 		return null;
 	}
 
+	// Fontes cujos termos proíbem enviar as vagas ao Google Jobs (ex.: Remotive).
+	$host = $d['fonte_url'] ? strtolower( (string) wp_parse_url( $d['fonte_url'], PHP_URL_HOST ) ) : '';
+	foreach ( (array) apply_filters( 'capivara_vagas_hosts_sem_schema', array( 'remotive.com' ) ) as $bloqueado ) {
+		if ( $host && ( $host === $bloqueado || substr( $host, -strlen( '.' . $bloqueado ) ) === '.' . $bloqueado ) ) {
+			return null;
+		}
+	}
+
 	$descricao = apply_filters( 'the_content', $post->post_content );
 	$descricao = wp_kses( $descricao, array(
 		'p' => array(), 'br' => array(), 'ul' => array(), 'ol' => array(), 'li' => array(),
