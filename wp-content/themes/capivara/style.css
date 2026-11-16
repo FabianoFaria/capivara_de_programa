@@ -7,7 +7,7 @@ Description: Tema de blocos escuro para o Capivara de Programa — notícias de 
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Version: 1.3.0
+Version: 1.3.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: capivara
@@ -608,4 +608,13 @@ button.capivara-share__btn--native:hover,
 .capivara-share__btn--native:focus-visible {
 	background: var(--wp--preset--color--primary-light);
 	color: var(--wp--preset--color--base);
+}
+
+/*
+ * A cor "border" da paleta gera .has-border-color { color: ... !important }, a mesma classe
+ * que o WordPress usa para marcar blocos com borda. Sem isto, o texto de caixas com borda
+ * (como o nome do autor no fim do post) herda a cor da borda e quase some.
+ */
+.wp-block-group.has-border-color:not(.has-text-color) {
+	color: var(--wp--preset--color--contrast) !important;
 }

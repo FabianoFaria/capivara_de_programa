@@ -101,6 +101,9 @@ Sem o plugin, a faixa mostra só a chamada e o tema continua funcionando.
 
 == Changelog ==
 
+= 1.3.1 =
+* Corrige o texto quase invisível em caixas com borda (nome do autor no fim do post).
+
 = 1.3.0 =
 * Bloco "Compartilhar" (capivara/compartilhar) nos posts e nas vagas.
 * Traduções em inglês atualizadas.
