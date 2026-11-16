@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Capivara de Programa 1.2.0\n"
+"Project-Id-Version: Capivara de Programa 1.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/capivara\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -894,4 +894,72 @@ msgstr ""
 #: blocks/idiomas/block.json
 msgctxt "block keyword"
 msgid "tradução"
+msgstr ""
+
+#: inc/compartilhar.php:87
+#. translators: %s: título da vaga
+#, php-format
+msgid "Vaga: %s"
+msgstr ""
+
+#: inc/compartilhar.php:88
+msgid "Compartilhe esta vaga"
+msgstr ""
+
+#: inc/compartilhar.php:91
+#: blocks/compartilhar/index.js:14
+msgid "Compartilhe"
+msgstr ""
+
+#: inc/compartilhar.php:102
+msgid "Compartilhar"
+msgstr ""
+
+#. translators: %s: nome da rede social
+#: inc/compartilhar.php:111
+#, php-format
+msgid "Compartilhar no %s (abre em nova aba)"
+msgstr ""
+
+#: inc/compartilhar.php:125
+msgid "Link copiado!"
+msgstr ""
+
+#: inc/compartilhar.php:126
+msgid "Não deu para copiar. Copie o endereço na barra do navegador."
+msgstr ""
+
+#: inc/compartilhar.php:127
+#: blocks/compartilhar/index.js:28
+msgid "Copiar link"
+msgstr ""
+
+#: blocks/compartilhar/block.json
+msgctxt "block title"
+msgid "Compartilhar"
+msgstr ""
+
+#: blocks/compartilhar/block.json
+msgctxt "block description"
+msgid "Botões para o leitor compartilhar o post ou a vaga no WhatsApp, Telegram, LinkedIn, X e Facebook, copiar o link ou usar o menu de compartilhar do celular."
+msgstr ""
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "compartilhar"
+msgstr ""
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "share"
+msgstr ""
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "whatsapp"
+msgstr ""
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "redes sociais"
 msgstr ""

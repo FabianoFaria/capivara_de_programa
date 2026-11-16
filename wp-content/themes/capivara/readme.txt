@@ -31,6 +31,13 @@ Tema de blocos (Full Site Editing) escuro para o capivaradeprograma.com.br.
 * Tempo de leitura automático nos cards e no post.
 * Botão "Copiar" nos blocos de código.
 * "Leia também" no fim do post, com posts da mesma categoria.
+* Bloco "Compartilhar" no fim dos posts e na lateral de cada vaga: WhatsApp, Telegram,
+  LinkedIn, X, Facebook e "Copiar link". No celular aparece também o botão "Compartilhar",
+  que abre o menu do aparelho (Instagram, Discord etc.). São só links, sem scripts das redes
+  nem rastreamento. Para mudar as redes, use o filtro capivara_compartilhar_redes
+  (há também "bluesky" disponível).
+* Prévia do link nas redes: posts sem imagem destacada saem sem foto. Defina uma imagem
+  padrão em Rank Math › Títulos e metas › Global › OpenGraph (1200 × 630).
 
 == Idiomas (preparado, ainda desligado) ==
 
@@ -93,6 +100,10 @@ Com o plugin Capivara Vagas ativo, o tema mostra:
 Sem o plugin, a faixa mostra só a chamada e o tema continua funcionando.
 
 == Changelog ==
+
+= 1.3.0 =
+* Bloco "Compartilhar" (capivara/compartilhar) nos posts e nas vagas.
+* Traduções em inglês atualizadas.
 
 = 1.2.0 =
 * Modelos de vagas (lista, filtros e página da vaga) para o plugin Capivara Vagas.

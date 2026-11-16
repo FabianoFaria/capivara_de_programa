@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "capivara/compartilhar",
+	"title": "Compartilhar",
+	"category": "widgets",
+	"icon": "share",
+	"description": "Botões para o leitor compartilhar o post ou a vaga no WhatsApp, Telegram, LinkedIn, X e Facebook, copiar o link ou usar o menu de compartilhar do celular.",
+	"keywords": ["compartilhar", "share", "whatsapp", "redes sociais"],
+	"textdomain": "capivara",
+	"usesContext": ["postId", "postType"],
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"viewScript": "file:./view.js"
+}

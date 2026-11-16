@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'CAPIVARA_VERSION', '1.2.0' );
+define( 'CAPIVARA_VERSION', '1.3.0' );
 
 require_once get_template_directory() . '/inc/helpers.php';
 require_once get_template_directory() . '/inc/anuncios.php';
@@ -17,6 +17,7 @@ require_once get_template_directory() . '/inc/tempo-de-leitura.php';
 require_once get_template_directory() . '/inc/miniatura.php';
 require_once get_template_directory() . '/inc/ativacao.php';
 require_once get_template_directory() . '/inc/idiomas.php';
+require_once get_template_directory() . '/inc/compartilhar.php';
 
 /**
  * Recursos do tema.

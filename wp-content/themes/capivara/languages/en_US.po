@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Capivara de Programa 1.2.0\n"
+"Project-Id-Version: Capivara de Programa 1.3.0\n"
 "Report-Msgid-Bugs-To: https://capivaradeprograma.com.br\n"
 "POT-Creation-Date: 2026-11-01T22:35:35+00:00\n"
 "PO-Revision-Date: 2026-11-13 13:07+0000\n"
@@ -946,3 +946,71 @@ msgstr ""
 msgctxt "block keyword"
 msgid "tradução"
 msgstr "translation"
+
+#: inc/compartilhar.php:87
+#. translators: %s: título da vaga
+#, php-format
+msgid "Vaga: %s"
+msgstr "Job: %s"
+
+#: inc/compartilhar.php:88
+msgid "Compartilhe esta vaga"
+msgstr "Share this job"
+
+#: inc/compartilhar.php:91
+#: blocks/compartilhar/index.js:14
+msgid "Compartilhe"
+msgstr "Share"
+
+#: inc/compartilhar.php:102
+msgid "Compartilhar"
+msgstr "Share"
+
+#. translators: %s: nome da rede social
+#: inc/compartilhar.php:111
+#, php-format
+msgid "Compartilhar no %s (abre em nova aba)"
+msgstr "Share on %s (opens in a new tab)"
+
+#: inc/compartilhar.php:125
+msgid "Link copiado!"
+msgstr "Link copied!"
+
+#: inc/compartilhar.php:126
+msgid "Não deu para copiar. Copie o endereço na barra do navegador."
+msgstr "Couldn't copy. Copy the address from the browser bar."
+
+#: inc/compartilhar.php:127
+#: blocks/compartilhar/index.js:28
+msgid "Copiar link"
+msgstr "Copy link"
+
+#: blocks/compartilhar/block.json
+msgctxt "block title"
+msgid "Compartilhar"
+msgstr "Share"
+
+#: blocks/compartilhar/block.json
+msgctxt "block description"
+msgid "Botões para o leitor compartilhar o post ou a vaga no WhatsApp, Telegram, LinkedIn, X e Facebook, copiar o link ou usar o menu de compartilhar do celular."
+msgstr "Buttons for readers to share the post or job on WhatsApp, Telegram, LinkedIn, X and Facebook, copy the link or use the phone's share menu."
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "compartilhar"
+msgstr "share"
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "share"
+msgstr "share"
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "whatsapp"
+msgstr "whatsapp"
+
+#: blocks/compartilhar/block.json
+msgctxt "block keyword"
+msgid "redes sociais"
+msgstr "social networks"

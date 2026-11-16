@@ -37,7 +37,9 @@
 
 <!-- wp:column {"width":"36%"} -->
 <div class="wp-block-column" style="flex-basis:36%"><!-- wp:group {"className":"capivara-sticky","layout":{"type":"default"}} -->
-<div class="wp-block-group capivara-sticky"><!-- wp:capivara/vaga-info {"layout":"resumo"} /--></div>
+<div class="wp-block-group capivara-sticky"><!-- wp:capivara/vaga-info {"layout":"resumo"} /-->
+
+<!-- wp:capivara/compartilhar {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></article>

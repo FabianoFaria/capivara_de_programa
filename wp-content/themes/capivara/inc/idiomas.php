@@ -118,7 +118,7 @@ add_action( 'init', 'capivara_register_language_block' );
  * Traduções dos scripts dos blocos no editor (arquivos JSON em languages/).
  */
 function capivara_block_script_translations() {
-	foreach ( array( 'capivara-anuncio-editor-script', 'capivara-idiomas-editor-script' ) as $handle ) {
+	foreach ( array( 'capivara-anuncio-editor-script', 'capivara-idiomas-editor-script', 'capivara-compartilhar-editor-script' ) as $handle ) {
 		if ( wp_script_is( $handle, 'registered' ) ) {
 			wp_set_script_translations( $handle, 'capivara', get_template_directory() . '/languages' );
 		}
