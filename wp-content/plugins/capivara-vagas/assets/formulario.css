@@ -1,0 +1,107 @@
+/* Formulário "Divulgar vaga" (Contact Form 7). Usa as cores do tema Capivara. */
+.capivara-form-vaga fieldset {
+	border: 1px solid var(--wp--preset--color--border, #ccc);
+	border-radius: 12px;
+	padding: 1rem 1.25rem 0.25rem;
+	margin: 0 0 1.5rem;
+}
+.capivara-form-vaga legend {
+	font-weight: 700;
+	padding: 0 0.4rem;
+}
+.capivara-form-vaga .linha {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+	gap: 0 1rem;
+}
+/* O CF7 coloca <p> e <br> no formulário: aqui eles não atrapalham o grid. */
+.capivara-form-vaga br {
+	display: none;
+}
+.capivara-form-vaga p,
+.capivara-form-vaga .linha > p {
+	margin: 0;
+}
+.capivara-form-vaga .linha > p {
+	display: contents;
+}
+.capivara-form-vaga .grupo {
+	margin-bottom: 1rem;
+}
+.capivara-form-vaga .rotulo {
+	display: block;
+	font-weight: 600;
+}
+.capivara-form-vaga label {
+	display: block;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+.capivara-form-vaga .dica {
+	display: block;
+	font-weight: 400;
+	font-size: 0.875em;
+	color: var(--wp--preset--color--muted, #666);
+}
+.capivara-form-vaga input[type="text"],
+.capivara-form-vaga input[type="email"],
+.capivara-form-vaga input[type="url"],
+.capivara-form-vaga input[type="number"],
+.capivara-form-vaga input[type="date"],
+.capivara-form-vaga select,
+.capivara-form-vaga textarea {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 0.35rem;
+	background: var(--wp--preset--color--surface, #fff);
+	color: var(--wp--preset--color--contrast, #111);
+	border: 1px solid var(--wp--preset--color--border, #ccc);
+	border-radius: 10px;
+	padding: 12px 14px;
+	font: inherit;
+	font-weight: 400;
+}
+.capivara-form-vaga textarea {
+	min-height: 14rem;
+}
+.capivara-form-vaga .wpcf7-checkbox .wpcf7-list-item {
+	margin: 0.35rem 1.25rem 0 0;
+}
+.capivara-form-vaga .wpcf7-checkbox label,
+.capivara-form-vaga .wpcf7-acceptance label {
+	display: inline;
+	margin: 0;
+	font-weight: 400;
+}
+.capivara-form-vaga .wpcf7-acceptance {
+	display: block;
+	margin-bottom: 0.75rem;
+}
+.capivara-form-vaga .wpcf7-not-valid-tip {
+	font-weight: 400;
+	font-size: 0.875em;
+}
+.capivara-form-vaga .linha {
+	align-items: end;
+}
+.capivara-form-vaga .linha-4 {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 8.5rem), 1fr));
+}
+.capivara-form-vaga .wpcf7-submit {
+	margin-top: 0.5rem;
+	background: var(--wp--preset--color--primary, #0a7);
+	color: var(--wp--preset--color--base, #fff);
+	border: 0;
+	border-radius: 12px;
+	padding: 14px 24px;
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+}
+.capivara-form-vaga .wpcf7-submit:hover {
+	background: var(--wp--preset--color--primary-light, #0b8);
+}
+.capivara-form-vaga .wpcf7-submit:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

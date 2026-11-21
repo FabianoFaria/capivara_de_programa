@@ -2,7 +2,7 @@
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 
 Vagas de tecnologia para o Capivara de Programa.
@@ -44,7 +44,7 @@ senha de aplicativo).
     "empresa": "Acme", "empresa_site": "https://...", "link_candidatura": "https://... ou e-mail",
     "contrato": "clt|pj|estagio|freelance|temporario|outro", "localizacao": "São Paulo/SP",
     "paises": "BR", "salario_min": 8000, "salario_max": 12000, "moeda": "BRL|USD|EUR",
-    "salario_periodo": "MONTH|YEAR|HOUR", "validade": "2026-12-31", "destaque": false,
+    "salario_periodo": "MONTH|YEAR|HOUR", "validade": "20261231", "destaque": false,
     "fonte_nome": "backend-br/vagas", "fonte_url": "https://github.com/..."
   }
 }
@@ -59,7 +59,30 @@ do Remotive proíbem enviar as vagas deles ao Google Jobs. Elas aparecem no site
 normalmente, com o crédito e o link para o Remotive. A lista de domínios pode ser
 alterada pelo filtro capivara_vagas_hosts_sem_schema.
 
+== Formulário "Divulgar vaga" ==
+
+Precisa do Contact Form 7. O plugin reconhece o formulário pelo campo oculto
+[hidden capivara-form "vaga"] e:
+
+* confere a faixa salarial (máximo maior ou igual ao mínimo), a cidade para vaga
+  híbrida ou presencial, o link ou e-mail de candidatura e a data;
+* limita a 5 envios por hora por IP (filtro capivara_vagas_form_limite_hora);
+* manda a vaga ao webhook do n8n, que grava em capivara_vagas como "nova".
+
+Configuração: variáveis de ambiente (ou constantes no wp-config.php)
+CAPIVARA_VAGAS_WEBHOOK_URL e CAPIVARA_VAGAS_WEBHOOK_TOKEN. O token vai no
+cabeçalho X-Capivara-Token. Se o n8n não responder, o envio não é bloqueado:
+o e-mail do Contact Form 7 leva todos os dados e o erro vai para o log do PHP
+("Capivara Vagas: o n8n não recebeu...").
+
+O estilo do formulário (assets/formulario.css) usa as cores do tema e só vale
+dentro de .capivara-form-vaga.
+
 == Changelog ==
+
+= 1.2.0 =
+* Formulário "Divulgar vaga" (Contact Form 7) ligado ao n8n, com validação extra e limite por IP.
+
 
 = 1.1.0 =
 * Campo "termos" na API REST: modelo, senioridade e stacks pelo nome ou slug (stacks novas são criadas).

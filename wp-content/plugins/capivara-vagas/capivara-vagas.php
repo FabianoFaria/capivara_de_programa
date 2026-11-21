@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Capivara Vagas
  * Plugin URI:        https://capivaradeprograma.com.br/vagas/
- * Description:       Vagas de tecnologia para o Capivara de Programa: tipo de post "Vaga", campos (ACF), expiração automática, schema JobPosting para o Google e permissões para o robô do n8n publicar só vagas.
- * Version:           1.1.0
+ * Description:       Vagas de tecnologia para o Capivara de Programa: tipo de post "Vaga", campos (ACF), expiração automática, schema JobPosting para o Google e permissões para o robô do n8n publicar só vagas e formulário "Divulgar vaga" (Contact Form 7) ligado ao n8n.
+ * Version:           1.2.0
  * Requires at least: 6.6
  * Requires PHP:      7.4
  * Author:            Capivara de Programa
@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'CAPIVARA_VAGAS_VERSION', '1.1.0' );
+define( 'CAPIVARA_VAGAS_VERSION', '1.2.0' );
 define( 'CAPIVARA_VAGAS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'CAPIVARA_VAGAS_URL', plugin_dir_url( __FILE__ ) );
 
@@ -27,6 +27,7 @@ require_once CAPIVARA_VAGAS_DIR . 'inc/expiracao.php';
 require_once CAPIVARA_VAGAS_DIR . 'inc/schema.php';
 require_once CAPIVARA_VAGAS_DIR . 'inc/admin.php';
 require_once CAPIVARA_VAGAS_DIR . 'inc/rest.php';
+require_once CAPIVARA_VAGAS_DIR . 'inc/formulario.php';
 
 /**
  * Bloco "Dados da vaga" (dinâmico, renderizado em PHP).
